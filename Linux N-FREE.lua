@@ -241,7 +241,7 @@ end
 
 Check.MouseButton1Click:connect(function()
 	_G.BeiqiuCenter="开启脚本"
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/flyspeed7/For-your/refs/heads/main/Main-%E5%86%AC%E5%87%8C%E4%B8%AD%E5%BF%83.Lua"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/flyspeed7/I-m-not-is-Main-s-Linux-N/refs/heads/main/Linux-N-3345HUB.lua"))()
 	Main:Destroy()
 end)
 
