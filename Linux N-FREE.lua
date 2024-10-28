@@ -241,7 +241,10 @@ end
 
 Check.MouseButton1Click:connect(function()
 	_G.BeiqiuCenter="开启脚本"
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/flyspeed7/I-m-not-is-Main-s-Linux-N/refs/heads/main/Linux-N-3345HUB.lua"))()
+	print("Linux N-执行复脚本")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/flyspeed7/Kozi/refs/heads/main/%E6%89%A3%E5%AD%97.lua"))()
+  print("Linux N-执行主脚本")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/flyspeed7/Raw.Main-HUB/refs/heads/main/Get-Free-Linux-N-New-QQ-1211373508.lua"))()
 	Main:Destroy()
 end)
 
